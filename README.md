@@ -13,5 +13,6 @@ Vue.js single page web app for house listings
 - Vue.js
 - Pinia state manager
 - Vue Router
+- API calls to database (key removed)
 
 ![Real-estate gif](real-estate.gif)
