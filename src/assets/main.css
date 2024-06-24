@@ -1,0 +1,159 @@
+:root {
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Open Sans", sans-serif;
+
+  --clr-primary: #3C3CF0;
+  --clr-secondary: rgb(74, 75, 76);
+  --clr-tertiary: rgb(232, 232, 242);
+  --clr-tertiary-dark: rgb(195, 195, 195);
+  --clr-background1: rgb(245, 250, 255);
+  --clr-background2: rgb(255, 255, 255);
+
+  --clr-text-primary: rgb(0, 0, 0);
+  --clr-text-secondary: rgb(58, 58, 58);
+  --clr-text-hyperlink: rgb(6, 123, 194);
+
+  background: var(--clr-background1);
+  font-family: var(--font-primary);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button, input[type="submit"], input[type="reset"], input[type="number"] {
+	border: none;
+	font-family: var(--font-primary);
+	cursor: pointer;
+  font-weight: 700;
+  height: 40px;
+}
+
+input[type="text"], input[type="number"], select {
+  background: var(--clr-background2);
+  color: var(--clr-text-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+}
+
+label {
+  font-family: var(--font-primary);
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+body {
+  width: 100vw;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  border-radius: 5px;
+  background: var(--clr-background2);
+  color: var(--clr-text-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 400;
+}
+
+.loading-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  input[type="text"] {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+
+  select {
+    font-size: 12px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .icon {
+    height: 20px;
+    margin-right: 5px;
+  }
+
+  .icon-white {
+    height: 30px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+  
+  input[type="text"] {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+
+  select {
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .icon {
+    height: 20px;
+ }
+}
