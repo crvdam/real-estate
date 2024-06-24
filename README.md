@@ -1,14 +1,14 @@
-# real-estate
+# Real-estate
 
 Vue.js single page web app for house listings
 
-### features
+### Features
 
 - Fully responsive
 - Create, edit and delete house listings using API calls
 - View, sort and filter listings
 
-### tech
+### Tech
 
 - Vue.js
 - Pinia state manager
